@@ -19,10 +19,10 @@ while True:
         unit = unit.upper()
         if unit == 'C':
             result = celsius_to_fahrenheit(temp)
-            print(f"{temp}°C is {result:.2f}°F")
+            print(f"Temperature in Celsius is :{result:.2f}°F")
         elif unit == 'F':
             result = fahrenheit_to_celsius(temp)
-            print(f"{temp}°F is {result:.2f}°C")
+            print(f"Temperature in Celsius is :{result:.2f}°C")
         else:
             raise TypeError("Invalid unit")
     except ValueError:
